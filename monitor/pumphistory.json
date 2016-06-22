@@ -1,5 +1,13 @@
 [
   {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2016-06-21T23:52:30 head[2], body[0] op[0x64]", 
+    "timestamp": "2016-06-21T23:52:30", 
+    "_body": "", 
+    "_head": "6401", 
+    "_date": "5eb4171510"
+  }, 
+  {
     "programmed": 4.0, 
     "_type": "Bolus", 
     "type": "normal", 
