@@ -1,5 +1,49 @@
 [
   {
+    "_id": "576a1e6c61745ce99c64e61f",
+    "sgv": 181,
+    "date": 1466572222000,
+    "dateString": "2016-06-22T05:10:22.000Z",
+    "trend": 4,
+    "direction": "Flat",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 181
+  },
+  {
+    "_id": "576a1d4061745ce99c64e607",
+    "sgv": 178,
+    "date": 1466571922000,
+    "dateString": "2016-06-22T05:05:22.000Z",
+    "trend": 4,
+    "direction": "Flat",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 178
+  },
+  {
+    "_id": "576a1c1461745ce99c64e5f0",
+    "sgv": 176,
+    "date": 1466571622000,
+    "dateString": "2016-06-22T05:00:22.000Z",
+    "trend": 4,
+    "direction": "Flat",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 176
+  },
+  {
+    "_id": "576a1ae861745ce99c64e5d8",
+    "sgv": 178,
+    "date": 1466571322000,
+    "dateString": "2016-06-22T04:55:22.000Z",
+    "trend": 5,
+    "direction": "FortyFiveDown",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 178
+  },
+  {
     "_id": "576a19bc61745ce99c64e5ba",
     "sgv": 182,
     "date": 1466571022000,
@@ -64,49 +108,5 @@
     "device": "share2",
     "type": "sgv",
     "glucose": 207
-  },
-  {
-    "_id": "576a10f261745ce99c64e4d3",
-    "sgv": 210,
-    "date": 1466568922000,
-    "dateString": "2016-06-22T04:15:22.000Z",
-    "trend": 5,
-    "direction": "FortyFiveDown",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 210
-  },
-  {
-    "_id": "576a0e9a61745ce99c64e4a9",
-    "sgv": 218,
-    "date": 1466568322000,
-    "dateString": "2016-06-22T04:05:22.000Z",
-    "trend": 5,
-    "direction": "FortyFiveDown",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 218
-  },
-  {
-    "_id": "576a0cd861745ce99c64e487",
-    "sgv": 233,
-    "date": 1466567721000,
-    "dateString": "2016-06-22T03:55:21.000Z",
-    "trend": 6,
-    "direction": "SingleDown",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 233
-  },
-  {
-    "_id": "576a0bac61745ce99c64e46f",
-    "sgv": 243,
-    "date": 1466567421000,
-    "dateString": "2016-06-22T03:50:21.000Z",
-    "trend": 6,
-    "direction": "SingleDown",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 243
   }
 ]
