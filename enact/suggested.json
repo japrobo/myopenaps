@@ -1,11 +1,1 @@
-{
-  "bg": 207, 
-  "temp": "absolute", 
-  "snoozeBG": 155, 
-  "rate": 0.95, 
-  "reason": "Eventual BG 155>110 but Avg. Delta -8.67 < Exp. Delta -0.5; setting current basal of 0.95 as temp. Setting neutral temp basal of 0.95U/hr", 
-  "eventualBG": 155, 
-  "duration": 30, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 36, Target: 150 Deviation: -50 BGI: -0.38", 
-  "tick": -3
-}
+[{"msg":"BG data is too old, or clock set incorrectly Wed Jun 22 2016 00:20:22 GMT-0400 (EDT) vs Wed Jun 22 2016 00:46:57 GMT-0400 (EDT)"}]
