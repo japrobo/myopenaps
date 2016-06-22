@@ -5,6 +5,13 @@
       "status": "normal", 
       "voltage": 1.41
     }, 
+    "status": {
+      "status": "error", 
+      "timestamp": "2016-06-22T02:37:28.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 0, 
     "clock": "2016-06-21T22:17:38-04:00"
   }, 
   "openaps": {
