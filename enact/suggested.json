@@ -1,1 +1,5 @@
-[{"msg":"BG data is too old, or clock set incorrectly Tue Jun 21 2016 23:25:21 GMT-0400 (EDT) vs Tue Jun 21 2016 23:59:55 GMT-0400 (EDT)"}]
+[
+  {
+    "msg": "BG data is too old, or clock set incorrectly Tue Jun 21 2016 23:25:21 GMT-0400 (EDT) vs Wed Jun 22 2016 00:05:14 GMT-0400 (EDT)"
+  }
+]
