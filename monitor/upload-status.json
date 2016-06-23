@@ -1,0 +1,28 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.32
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-06-23T23:11:23.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 90.7, 
+    "clock": "2016-06-23T19:11:10-04:00"
+  }, 
+  "openaps": {
+    "iob": {
+      "netbasalinsulin": 0, 
+      "timestamp": "2016-06-23T23:11:28.000Z", 
+      "activity": 0, 
+      "basaliob": 0, 
+      "hightempinsulin": 0, 
+      "bolussnooze": 0, 
+      "iob": 0
+    }
+  }
+}
