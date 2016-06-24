@@ -1,5 +1,13 @@
 [
   {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-06-23T20:00:09 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-06-23T20:00:09", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "4980141710"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-23T17:55:43 head[2], body[0] op[0x16]", 
     "timestamp": "2016-06-23T17:55:43", 
@@ -201,29 +209,5 @@
     "_head": "3350", 
     "rate": 2.0, 
     "_date": "7991105710"
-  }, 
-  {
-    "_type": "NewTimeSet", 
-    "_description": "NewTimeSet 2016-06-23T15:38:00 head[2], body[0] op[0x18]", 
-    "timestamp": "2016-06-23T15:38:00", 
-    "_body": "", 
-    "_head": "1800", 
-    "_date": "40a60f1710"
-  }, 
-  {
-    "_type": "ChangeTime", 
-    "_description": "ChangeTime 2016-06-23T15:37:14 head[2], body[0] op[0x17]", 
-    "timestamp": "2016-06-23T15:37:14", 
-    "_body": "", 
-    "_head": "1700", 
-    "_date": "4ea50f1710"
-  }, 
-  {
-    "_type": "ChangeTimeDisplay", 
-    "_description": "ChangeTimeDisplay 2016-06-23T15:37:06 head[2], body[0] op[0x64]", 
-    "timestamp": "2016-06-23T15:37:06", 
-    "_body": "", 
-    "_head": "6401", 
-    "_date": "46a50f1710"
   }
 ]
