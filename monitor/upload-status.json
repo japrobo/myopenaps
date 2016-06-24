@@ -1,0 +1,31 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {}, 
+  "openaps": {
+    "suggested": {
+      "bg": 172, 
+      "temp": "absolute", 
+      "snoozeBG": 175, 
+      "timestamp": "2016-06-24T03:47:10.000Z", 
+      "rate": 0.95, 
+      "reason": "175-175 in range: no temp required; setting current basal of 0.95 as temp. Setting neutral temp basal of 0.95U/hr", 
+      "eventualBG": 175, 
+      "duration": 30, 
+      "mealAssist": "On: 6%, 6%, Carbs: 0 Boluses: 0 ISF: 36, Target: 149 Deviation: 3 BGI: 0", 
+      "tick": "+3"
+    }, 
+    "enacted": {
+      "bg": 172, 
+      "temp": "absolute", 
+      "snoozeBG": 175, 
+      "recieved": true, 
+      "reason": "175-175 in range: no temp required; setting current basal of 0.95 as temp. Setting neutral temp basal of 0.95U/hr", 
+      "rate": 0.925, 
+      "eventualBG": 175, 
+      "timestamp": "2016-06-24T03:47:17.000Z", 
+      "duration": 30, 
+      "mealAssist": "On: 6%, 6%, Carbs: 0 Boluses: 0 ISF: 36, Target: 149 Deviation: 3 BGI: 0", 
+      "tick": "+3"
+    }
+  }
+}
