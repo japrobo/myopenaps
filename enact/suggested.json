@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":172,"tick":"+3","eventualBG":175,"snoozeBG":175,"mealAssist":"On: 6%, 6%, Carbs: 0 Boluses: 0 ISF: 36, Target: 149 Deviation: 3 BGI: 0","reason":"175-175 in range: no temp required; setting current basal of 0.95 as temp. Setting neutral temp basal of 0.95U/hr","duration":30,"rate":0.95}
+{"temp":"absolute","bg":177,"tick":"+3","eventualBG":186,"snoozeBG":185,"mealAssist":"On: 16%, 16%, Carbs: 0 Boluses: 0 ISF: 36, Target: 148 Deviation: 8 BGI: 0","reason":"186-185 in range: no temp required, temp 0.925 ~ req 0.95U/hr"}
