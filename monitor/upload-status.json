@@ -1,0 +1,40 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {}, 
+  "openaps": {
+    "suggested": {
+      "bg": 184, 
+      "temp": "absolute", 
+      "snoozeBG": 160, 
+      "timestamp": "2016-06-24T20:56:25.000Z", 
+      "reason": "Eventual BG 160>110 but Avg. Delta -6.00 < Exp. Delta -1.1, temp 1.3 ~ req 1.3U/hr", 
+      "eventualBG": 160, 
+      "mealAssist": "Off: Carbs: 20 Boluses: 2.9 ISF: 36, Target: 120 Deviation: -24 BGI: 0", 
+      "tick": -6
+    }, 
+    "enacted": {
+      "bg": 184, 
+      "temp": "absolute", 
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-06-24T20:56:29.000Z", 
+      "snoozeBG": 160, 
+      "reason": "Eventual BG 160>110 but Avg. Delta -6.00 < Exp. Delta -1.1, temp 1.3 ~ req 1.3U/hr", 
+      "eventualBG": 160, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 184, 
+        "temp": "absolute", 
+        "snoozeBG": 160, 
+        "reason": "Eventual BG 160>110 but Avg. Delta -6.00 < Exp. Delta -1.1, temp 1.3 ~ req 1.3U/hr", 
+        "eventualBG": 160, 
+        "mealAssist": "Off: Carbs: 20 Boluses: 2.9 ISF: 36, Target: 120 Deviation: -24 BGI: 0", 
+        "tick": -6
+      }, 
+      "mealAssist": "Off: Carbs: 20 Boluses: 2.9 ISF: 36, Target: 120 Deviation: -24 BGI: 0", 
+      "tick": -6
+    }
+  }
+}
