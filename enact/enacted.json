@@ -1,0 +1,18 @@
+{
+  "requested": {
+    "duration": 30, 
+    "rate": 2.9, 
+    "temp": "absolute"
+  }, 
+  "bg": 225, 
+  "temp": "absolute", 
+  "snoozeBG": 227, 
+  "timestamp": "2016-06-24T21:01:19.061231", 
+  "rate": 0.8, 
+  "reason": "Eventual BG 227>=175, adj. req. rate:3.5 to maxSafeBasal:2.9, no temp, setting 2.9U/hr", 
+  "eventualBG": 227, 
+  "recieved": false, 
+  "duration": 0, 
+  "mealAssist": "Off: Carbs: 235 Boluses: 5.6 ISF: 36, Target: 143 Deviation: 2 BGI: 0", 
+  "tick": -1
+}
