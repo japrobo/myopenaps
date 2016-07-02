@@ -2,7 +2,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-07-02T07:47:40 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-07-02T07:47:40", 
+    "timestamp": "2016-07-02T07:47:40-04:00", 
     "_body": "", 
     "programmed": 9.1, 
     "_head": "015b5b00", 
@@ -18,7 +18,7 @@
     "_byte[5]": 24, 
     "unknown_byte[10]": 0, 
     "_description": "BolusWizard 2016-07-02T07:47:40 head[2], body[13] op[0x5b]", 
-    "timestamp": "2016-07-02T07:47:40", 
+    "timestamp": "2016-07-02T07:47:40-04:00", 
     "_body": "735011246e1843000000005b91", 
     "bg_target_high": 145, 
     "sensitivity": 36, 
@@ -37,7 +37,7 @@
   {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2016-07-02T07:46:58 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-07-02T07:46:58", 
+    "timestamp": "2016-07-02T07:46:58-04:00", 
     "_body": "", 
     "_head": "0aea", 
     "amount": 234, 
