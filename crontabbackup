@@ -1,0 +1,13 @@
+NIGHTSCOUT_HOST=https://dmtracker2.azurewebsites.net
+
+API_SECRET=74354a46eef25e7595081a780b6d5653e474b79e
+
+# Below line resets data every 10 minutes
+*/10 * * * * cd /home/pi/myopenaps && openaps loop
+
+
+# Below line runs loop every 5 minutes
+*/5 * * * * cd /home/pi/myopenaps && openaps loop
+
+# Below line resets git repository every 1 minute in order to automatically resolve git corruption
+*/1 * * * * cd /home/pi/myopenaps && oref0-reset-git  
