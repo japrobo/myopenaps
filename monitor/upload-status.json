@@ -1,0 +1,40 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {}, 
+  "openaps": {
+    "suggested": {
+      "bg": 130, 
+      "temp": "absolute", 
+      "snoozeBG": 163, 
+      "timestamp": "2016-07-03T19:46:02.000Z", 
+      "reason": "Eventual BG 169>=145, adj. req. rate:3.6 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+      "eventualBG": 169, 
+      "mealAssist": "On: 36%, 36%, Carbs: 0 Boluses: 4 ISF: 36, Target: 122 Deviation: 18 BGI: -0.41", 
+      "tick": "+6"
+    }, 
+    "enacted": {
+      "bg": 130, 
+      "temp": "absolute", 
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-07-03T19:46:07.000Z", 
+      "snoozeBG": 163, 
+      "reason": "Eventual BG 169>=145, adj. req. rate:3.6 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+      "eventualBG": 169, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 130, 
+        "temp": "absolute", 
+        "snoozeBG": 163, 
+        "reason": "Eventual BG 169>=145, adj. req. rate:3.6 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+        "eventualBG": 169, 
+        "mealAssist": "On: 36%, 36%, Carbs: 0 Boluses: 4 ISF: 36, Target: 122 Deviation: 18 BGI: -0.41", 
+        "tick": "+6"
+      }, 
+      "mealAssist": "On: 36%, 36%, Carbs: 0 Boluses: 4 ISF: 36, Target: 122 Deviation: 18 BGI: -0.41", 
+      "tick": "+6"
+    }
+  }
+}
