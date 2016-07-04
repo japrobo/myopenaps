@@ -1,0 +1,24 @@
+{
+  "bg": 95, 
+  "temp": "absolute", 
+  "snoozeBG": 204, 
+  "timestamp": "2016-07-04T12:11:23.322627", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
+  "reason": "Meal assist: 200g, 10.4U, bolus snooze: eventual BG range 34-204, temp 1 ~ req 1U/hr", 
+  "eventualBG": 34, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "Meal assist: 200g, 10.4U, bolus snooze: eventual BG range 34-204, temp 1 ~ req 1U/hr", 
+    "bg": 95, 
+    "eventualBG": 34, 
+    "temp": "absolute", 
+    "snoozeBG": 204, 
+    "mealAssist": "On: 34%, 34%, Carbs: 200 Boluses: 10.4 ISF: 36, Target: 127 Deviation: 17 BGI: -0.59", 
+    "tick": "+5"
+  }, 
+  "mealAssist": "On: 34%, 34%, Carbs: 200 Boluses: 10.4 ISF: 36, Target: 127 Deviation: 17 BGI: -0.59", 
+  "tick": "+5"
+}
