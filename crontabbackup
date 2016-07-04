@@ -11,9 +11,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/gam
 */3 * * * * cd /home/pi/myopenaps && oref0-reset-git 
 
 # Below line runs loop every 5 minutes if a loop is not already running
-*/5 * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
-# */1 * * * * cd /home/pi/myopenaps && flock -xn /home/pi/myopenaps.lck -c "openaps loop" | echo loop already running &>> /tmp/output
-
+* * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
+#*/1 * * * * cd /home/pi/myopenaps && flock -xn /home/pi/myopenaps.lck -c "openaps loop &>> /tmp/output"
+# * * * * * cd /home/pi/myopenaps && /home/pi/myopenaps/flock -n /tmp/fcj.lockfile /home/pi/myopenaps/"openaps loop" --minutely &>> /tmp/output
 
 # Below line copies crontab to myopenaps backup file  and then deletes secret information once per hour
 
