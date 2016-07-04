@@ -1,0 +1,18 @@
+{
+  "requested": {
+    "duration": 30, 
+    "rate": 0, 
+    "temp": "absolute"
+  }, 
+  "bg": 96, 
+  "temp": "absolute", 
+  "snoozeBG": 50, 
+  "timestamp": "2016-07-03T22:06:24.443705", 
+  "rate": 0.0, 
+  "reason": "Eventual BG 50<110, setting -9.328U/hr", 
+  "eventualBG": 50, 
+  "recieved": false, 
+  "duration": 0, 
+  "mealAssist": "Off: Carbs: 105 Boluses: 1.9 ISF: 36, Target: 143 Deviation: -45 BGI: -0.79", 
+  "tick": -14
+}
