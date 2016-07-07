@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-07-07T00:31:10 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-07T00:31:10", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "4adf004710"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-07T00:31:10 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-07T00:31:10", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "4adf004710"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-07T00:16:00 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-07T00:16:00", 
     "_body": "", 
@@ -521,43 +540,5 @@
     "_head": "3322", 
     "rate": 0.85, 
     "_date": "45e9144610"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-07-06T20:22:55 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-06T20:22:55", 
-    "_body": "", 
-    "fixed": 0.5, 
-    "_head": "0300050005", 
-    "amount": 0.5, 
-    "_date": "77d6140610"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2016-07-06T20:19:36 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-06T20:19:36", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "0300000051", 
-    "amount": 8.1, 
-    "_date": "64d3340610"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-07-06T20:18:53 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-07-06T20:18:53", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "75d2140610"
-  }, 
-  {
-    "_type": "PumpResume", 
-    "_description": "PumpResume 2016-07-06T20:18:46 head[2], body[0] op[0x1f]", 
-    "timestamp": "2016-07-06T20:18:46", 
-    "_body": "", 
-    "_head": "1f00", 
-    "_date": "6ed2140610"
   }
 ]
