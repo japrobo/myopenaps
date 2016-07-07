@@ -1,5 +1,46 @@
 [
   {
+    "direction": "Flat", 
+    "noise": 1, 
+    "delta": -3.452, 
+    "dateString": "2016-07-07T19:24:21.553-0400", 
+    "sgv": 106, 
+    "date": 1467933861553, 
+    "unfiltered": 137440, 
+    "rssi": 100, 
+    "device": "xDrip-WifiWixel", 
+    "filtered": 141792, 
+    "_id": "577ee4d261745ce99c66e929", 
+    "type": "sgv", 
+    "glucose": 106
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
+    "delta": -4.297, 
+    "dateString": "2016-07-07T19:19:21.178-0400", 
+    "sgv": 110, 
+    "date": 1467933561178, 
+    "unfiltered": 140640, 
+    "rssi": 100, 
+    "device": "xDrip-WifiWixel", 
+    "filtered": 147584, 
+    "_id": "577ee4b461745ce99c66e927", 
+    "type": "sgv", 
+    "glucose": 110
+  }, 
+  {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-07-07T23:19:19.000Z", 
+    "sgv": 102, 
+    "device": "share2", 
+    "date": 1467933559000, 
+    "_id": "577ee46b61745ce99c66e923", 
+    "type": "sgv", 
+    "glucose": 102
+  }, 
+  {
     "direction": "FortyFiveDown", 
     "noise": 1, 
     "delta": -7.385, 
@@ -91,46 +132,5 @@
     "_id": "577edf2561745ce99c66e89c", 
     "type": "sgv", 
     "glucose": 149
-  }, 
-  {
-    "direction": "SingleDown", 
-    "noise": 1, 
-    "delta": -10.848, 
-    "dateString": "2016-07-07T18:54:20.919-0400", 
-    "sgv": 158, 
-    "date": 1467932060919, 
-    "unfiltered": 185536, 
-    "rssi": 100, 
-    "device": "xDrip-WifiWixel", 
-    "filtered": 202016, 
-    "_id": "577eddac61745ce99c66e880", 
-    "type": "sgv", 
-    "glucose": 158
-  }, 
-  {
-    "direction": "DoubleDown", 
-    "trend": 7, 
-    "dateString": "2016-07-07T22:54:20.000Z", 
-    "sgv": 161, 
-    "device": "share2", 
-    "date": 1467932060000, 
-    "_id": "577eddf961745ce99c66e885", 
-    "type": "sgv", 
-    "glucose": 161
-  }, 
-  {
-    "direction": "SingleDown", 
-    "noise": 1, 
-    "delta": -13.781, 
-    "dateString": "2016-07-07T18:49:21.766-0400", 
-    "sgv": 169, 
-    "date": 1467931761766, 
-    "unfiltered": 195552, 
-    "rssi": 100, 
-    "device": "xDrip-WifiWixel", 
-    "filtered": 216544, 
-    "_id": "577edc8061745ce99c66e867", 
-    "type": "sgv", 
-    "glucose": 169
   }
 ]
