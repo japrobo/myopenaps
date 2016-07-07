@@ -2,6 +2,21 @@
   {
     "direction": "FortyFiveUp", 
     "noise": 1, 
+    "delta": 6.415, 
+    "dateString": "2016-07-07T16:19:21.690-0400", 
+    "sgv": 291, 
+    "date": 1467922761690, 
+    "unfiltered": 307904, 
+    "rssi": 100, 
+    "device": "xDrip-WifiWixel", 
+    "filtered": 299008, 
+    "_id": "577eb95961745ce99c66e372", 
+    "type": "sgv", 
+    "glucose": 291
+  }, 
+  {
+    "direction": "FortyFiveUp", 
+    "noise": 1, 
     "delta": 5.404, 
     "dateString": "2016-07-07T14:14:22.489-0400", 
     "sgv": 130, 
@@ -133,20 +148,5 @@
     "_id": "577e826361745ce99c66dce7", 
     "type": "sgv", 
     "glucose": 235
-  }, 
-  {
-    "direction": "SingleUp", 
-    "noise": 1, 
-    "delta": 10.048, 
-    "dateString": "2016-07-07T12:19:22.190-0400", 
-    "sgv": 231, 
-    "date": 1467908362190, 
-    "unfiltered": 252512, 
-    "rssi": 100, 
-    "device": "xDrip-WifiWixel", 
-    "filtered": 230656, 
-    "_id": "577e811a61745ce99c66dcce", 
-    "type": "sgv", 
-    "glucose": 231
   }
 ]
