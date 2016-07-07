@@ -15,6 +15,17 @@
     "glucose": 177
   }, 
   {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-07-07T11:04:21.000Z", 
+    "sgv": 162, 
+    "device": "share2", 
+    "date": 1467889461000, 
+    "_id": "577e382361745ce99c66d5c9", 
+    "type": "sgv", 
+    "glucose": 162
+  }, 
+  {
     "direction": "SingleUp", 
     "noise": 1, 
     "delta": 12.29, 
@@ -111,16 +122,6 @@
     "intercept": 37785.251193576405, 
     "device": "xDrip-WifiWixel", 
     "_id": "577e319061745ce99c66d506", 
-    "type": "cal"
-  }, 
-  {
-    "slope": 925.9259259259259, 
-    "scale": 1, 
-    "dateString": "2016-07-07T06:40:09.153-0400", 
-    "date": 1467888009153, 
-    "intercept": 37795.7492404514, 
-    "device": "xDrip-WifiWixel", 
-    "_id": "577e318b61745ce99c66d505", 
     "type": "cal"
   }
 ]
