@@ -1,0 +1,13 @@
+{
+  "bg": 133, 
+  "temp": "absolute", 
+  "snoozeBG": 144, 
+  "recieved": true, 
+  "rate": 0.75, 
+  "reason": "144-144 in range: no temp required; setting current basal of 0.75 as temp. Setting neutral temp basal of 0.75U/hr", 
+  "eventualBG": 144, 
+  "timestamp": "2016-07-07T04:31:36.056501", 
+  "duration": 30, 
+  "mealAssist": "On: 4%, 4%, Carbs: 0 Boluses: 0 ISF: 36, Target: 144 Deviation: 2 BGI: 0.45", 
+  "tick": "+1"
+}
