@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-07-08T04:06:09 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-08T04:06:09-04:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "49c6044810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-08T04:06:09 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-08T04:06:09-04:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "49c6044810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-08T03:51:06 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-08T03:51:06-04:00", 
     "_body": "", 
@@ -397,41 +416,5 @@
     "_head": "332c", 
     "rate": 1.1, 
     "_date": "43d5004810"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2016-07-08T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2016-07-08T00:00:00-04:00", 
-    "_body": "0510b4602d08000007de03d231040c330154040c3302783d01942700000007020203000c00e8000000", 
-    "_head": "6d", 
-    "_date": "6790"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-07-08T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2016-07-08T00:00:00-04:00", 
-    "_body": "", 
-    "_head": "07000007de", 
-    "valid_date": "2016-07-07", 
-    "_date": "6790"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-07-07T23:56:00 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-07T23:56:00-04:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "40f8174710"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-07T23:56:00 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-07T23:56:00-04:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "40f8174710"
   }
 ]
