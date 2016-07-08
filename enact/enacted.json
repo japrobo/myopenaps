@@ -1,0 +1,24 @@
+{
+  "bg": 94, 
+  "temp": "absolute", 
+  "snoozeBG": 125, 
+  "timestamp": "2016-07-08T02:56:22.956640", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
+  "reason": "BG 94<95, delta 4>0, temp 0.75 ~ req 0.75U/hr", 
+  "eventualBG": 126, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "BG 94<95, delta 4>0, temp 0.75 ~ req 0.75U/hr", 
+    "bg": 94, 
+    "eventualBG": 126, 
+    "temp": "absolute", 
+    "snoozeBG": 125, 
+    "mealAssist": "On: 10%, 10%, Carbs: 0 Boluses: 0 ISF: 36, Target: 142 Deviation: 5 BGI: 1.71", 
+    "tick": "+4"
+  }, 
+  "mealAssist": "On: 10%, 10%, Carbs: 0 Boluses: 0 ISF: 36, Target: 142 Deviation: 5 BGI: 1.71", 
+  "tick": "+4"
+}
