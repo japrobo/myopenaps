@@ -21,11 +21,7 @@
   "insulin_action_curve": 3, 
   "audio_bolus_size": 0.5, 
   "selected_pattern": 0, 
-<<<<<<< HEAD
   "patterns_enabled": true, 
-=======
-  "patterns_enabled": false, 
->>>>>>> 65d12703b6f69f2fa7c2424df90da05e466aca0b
   "maxBolus": 15.0, 
   "paradigm_enabled": 0
 }
