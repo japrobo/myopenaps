@@ -1,0 +1,31 @@
+{
+  "low_reservoir_warn_point": 10, 
+  "keypad_lock_status": 0, 
+  "maxBasal": 2.9, 
+  "temp_basal": {
+    "percent": 100, 
+    "type": "Units/hour"
+  }, 
+  "low_reservoir_warn_type": 0, 
+  "insulinConcentration": 100, 
+  "audio_bolus_enable": true, 
+  "variable_bolus_enable": true, 
+  "alarm": {
+    "volume": 2, 
+    "mode": 2
+  }, 
+  "rf_enable": false, 
+  "auto_off_duration_hrs": 0, 
+  "block_enable": false, 
+  "timeformat": 1, 
+  "insulin_action_curve": 3, 
+  "audio_bolus_size": 0.5, 
+  "selected_pattern": 0, 
+<<<<<<< HEAD
+  "patterns_enabled": true, 
+=======
+  "patterns_enabled": false, 
+>>>>>>> 65d12703b6f69f2fa7c2424df90da05e466aca0b
+  "maxBolus": 15.0, 
+  "paradigm_enabled": 0
+}
