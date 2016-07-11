@@ -1,4 +1,5 @@
-TEST of Backups July 10
+API_SECRET=74354a46eef25e7595081a780b6d5653e474b79e
+
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
