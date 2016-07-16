@@ -1,18 +1,17 @@
-
 SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
-
+PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
 # Below line kills it if it runs more than 10 minutes
 */10 * * * * killall -g --older-than 10m openaps 
-
-# Below line will wait if processing is already running, duplicate cron job executions
 
 # Below line resets git repository every 3 minute in order to automatically resolve git corruption
 */3 * * * * cd /home/pi/myopenaps && oref0-reset-git &2> /dev/null
 
 # Below line runs loop every 5 minutes if a loop is not already running
-*/5 * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
+*/5 * * * * cd /home/pi/myopenaps && sleep 120 && openaps loop &>> /tmp/output
+
+# Below line runs mmtune one an hour 
+12 * * * * cd /home/pi/myopenaps && openaps mmtune
 
 # Below line copies crontab to myopenaps backup file  and then deletes secret information once per hour
 
