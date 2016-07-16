@@ -2,6 +2,67 @@
   {
     "direction": "Flat", 
     "noise": 1, 
+    "delta": 1.976, 
+    "dateString": "2016-07-15T20:23:58.933-0400", 
+    "sgv": 169, 
+    "date": 1468628638933, 
+    "unfiltered": 132896, 
+    "rssi": 100, 
+    "device": "xDrip-WifiWixel", 
+    "filtered": 131488, 
+    "_id": "57897ea561745ce99c685065", 
+    "type": "sgv", 
+    "glucose": 169
+  }, 
+  {
+    "slope": 925.9259259259259, 
+    "scale": 1, 
+    "dateString": "2016-07-15T20:20:47.432-0400", 
+    "date": 1468628447432, 
+    "intercept": -24241.049746948243, 
+    "device": "xDrip-WifiWixel", 
+    "_id": "57897ea561745ce99c685064", 
+    "type": "cal"
+  }, 
+  {
+    "slope": 925.9259259259259, 
+    "scale": 1, 
+    "dateString": "2016-07-15T20:20:47.432-0400", 
+    "date": 1468628447432, 
+    "intercept": -26326.353567617913, 
+    "device": "xDrip-WifiWixel", 
+    "_id": "57897dd861745ce99c68504d", 
+    "type": "cal"
+  }, 
+  {
+    "mbg": 167, 
+    "dateString": "2016-07-15T20:20:47.432-0400", 
+    "date": 1468628447432, 
+    "device": "xDrip-WifiWixel", 
+    "_id": "57897dd861745ce99c68504c", 
+    "type": "mbg"
+  }, 
+  {
+    "slope": 1000, 
+    "scale": 1, 
+    "dateString": "2016-07-15T20:20:44.335-0400", 
+    "date": 1468628444335, 
+    "intercept": -38008.00000000001, 
+    "device": "xDrip-WifiWixel", 
+    "_id": "57897dd461745ce99c68504a", 
+    "type": "cal"
+  }, 
+  {
+    "mbg": 167, 
+    "dateString": "2016-07-15T20:20:44.335-0400", 
+    "date": 1468628444335, 
+    "device": "xDrip-WifiWixel", 
+    "_id": "57897dd461745ce99c685049", 
+    "type": "mbg"
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
     "delta": -2.091, 
     "dateString": "2016-07-15T20:19:00.770-0400", 
     "sgv": 82, 
@@ -13,6 +74,17 @@
     "_id": "57897d8d61745ce99c685046", 
     "type": "sgv", 
     "glucose": 82
+  }, 
+  {
+    "direction": "SingleUp", 
+    "trend": 2, 
+    "dateString": "2016-07-16T00:18:46.000Z", 
+    "sgv": 167, 
+    "device": "share2", 
+    "date": 1468628326000, 
+    "_id": "57897dd561745ce99c68504b", 
+    "type": "sgv", 
+    "glucose": 167
   }, 
   {
     "direction": "Flat", 
@@ -39,82 +111,5 @@
     "_id": "5785b1ba61745ce99c67fd82", 
     "type": "sgv", 
     "glucose": 281
-  }, 
-  {
-    "direction": "NOT COMPUTABLE", 
-    "trend": 8, 
-    "dateString": "2016-07-13T01:18:58.000Z", 
-    "sgv": 305, 
-    "device": "share2", 
-    "date": 1468372738000, 
-    "_id": "5785b1ba61745ce99c67fd84", 
-    "type": "sgv", 
-    "glucose": 305
-  }, 
-  {
-    "direction": "NOT COMPUTABLE", 
-    "trend": 8, 
-    "dateString": "2016-07-13T01:13:58.000Z", 
-    "sgv": 297, 
-    "device": "share2", 
-    "date": 1468372438000, 
-    "_id": "5785b1ba61745ce99c67fd83", 
-    "type": "sgv", 
-    "glucose": 297
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-07-12T23:03:59.000Z", 
-    "sgv": 140, 
-    "device": "share2", 
-    "date": 1468364639000, 
-    "_id": "578577b961745ce99c67f865", 
-    "type": "sgv", 
-    "glucose": 140
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-07-12T22:58:59.000Z", 
-    "sgv": 138, 
-    "device": "share2", 
-    "date": 1468364339000, 
-    "_id": "5785768d61745ce99c67f84b", 
-    "type": "sgv", 
-    "glucose": 138
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-07-12T22:53:59.000Z", 
-    "sgv": 135, 
-    "device": "share2", 
-    "date": 1468364039000, 
-    "_id": "5785756161745ce99c67f834", 
-    "type": "sgv", 
-    "glucose": 135
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-07-12T22:48:59.000Z", 
-    "sgv": 129, 
-    "device": "share2", 
-    "date": 1468363739000, 
-    "_id": "5785743561745ce99c67f81b", 
-    "type": "sgv", 
-    "glucose": 129
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-07-12T22:43:59.000Z", 
-    "sgv": 135, 
-    "device": "share2", 
-    "date": 1468363439000, 
-    "_id": "5785730961745ce99c67f7ed", 
-    "type": "sgv", 
-    "glucose": 135
   }
 ]
