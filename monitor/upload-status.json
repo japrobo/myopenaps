@@ -1,0 +1,62 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.55
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-07-16T05:46:56.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 100.2, 
+    "clock": "2016-07-16T01:46:10-04:00"
+  }, 
+  "openaps": {
+    "suggested": {
+      "bg": 221, 
+      "temp": "absolute", 
+      "snoozeBG": 199, 
+      "timestamp": "2016-07-16T05:47:09.000Z", 
+      "reason": "Eventual BG 199>=150, adj. req. rate:4.1 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+      "eventualBG": 199, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 3.8 ISF: 36, Target: 145 Deviation: 16 BGI: -5.27", 
+      "tick": "+0"
+    }, 
+    "iob": {
+      "netbasalinsulin": 2.15, 
+      "timestamp": "2016-07-16T05:47:02.000Z", 
+      "activity": 0.0293, 
+      "basaliob": 0.637, 
+      "hightempinsulin": 2.15, 
+      "bolussnooze": 0, 
+      "iob": 1.052
+    }, 
+    "enacted": {
+      "bg": 221, 
+      "temp": "absolute", 
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-07-16T05:47:14.000Z", 
+      "snoozeBG": 199, 
+      "reason": "Eventual BG 199>=150, adj. req. rate:4.1 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+      "eventualBG": 199, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 221, 
+        "temp": "absolute", 
+        "snoozeBG": 199, 
+        "reason": "Eventual BG 199>=150, adj. req. rate:4.1 to maxSafeBasal:2.9, temp 2.875 >~ req 2.9U/hr", 
+        "eventualBG": 199, 
+        "mealAssist": "Off: Carbs: 0 Boluses: 3.8 ISF: 36, Target: 145 Deviation: 16 BGI: -5.27", 
+        "tick": "+0"
+      }, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 3.8 ISF: 36, Target: 145 Deviation: 16 BGI: -5.27", 
+      "tick": "+0"
+    }
+  }
+}
