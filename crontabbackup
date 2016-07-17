@@ -1,0 +1,21 @@
+SHELL=/bin/bash
+PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+
+# Below line kills it if it runs more than 10 minutes
+*/10 * * * * killall -g --older-than 10m openaps &2> /dev/null 
+
+# Below line resets git repository every 3 minute in order to automatically resolve git corruption
+*/3 * * * * cd /home/pi/myopenaps && oref0-reset-git &2> /dev/null 
+
+# Below line runs loop every 5 minutes if a loop is not already running
+*/5 * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
+
+# Below line runs mmtune twice an hour
+9 * * * * cd /home/pi/myopenaps && openaps mmtune
+39 * * * * cd /home/pi/myopenaps && openaps mmtune
+
+# Below line copies crontab to myopenaps backup file  and then deletes secret information once per hour
+
+# Below line sends git repository to github (one minute after crontab backup runs in the previous line)
+1 * * * * cd /home/pi/myopenaps && ./git.run
+
