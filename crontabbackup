@@ -2,13 +2,25 @@ SHELL=/bin/bash
 PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
 # Below line kills it if it runs more than 10 minutes
+<<<<<<< HEAD
 */10 * * * * killall -g --older-than 10m openaps &2> /dev/null 
+=======
+*/10 * * * * killall -g --older-than 10m openaps
+>>>>>>> ae76410b8be66c75d63a67a97e31602e6fb2d547
 
 # Below line resets git repository every 3 minute in order to automatically resolve git corruption
 */3 * * * * cd /home/pi/myopenaps && oref0-reset-git &2> /dev/null 
 
 # Below line runs loop every 5 minutes if a loop is not already running
-*/5 * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
+*/5 * * * * cd /home/pi/myopenaps && sleep 120 && openaps loop &>> /tmp/output
+
+# Below line runs mmtune twice an hour
+12 * * * * cd /home/pi/myopenaps && openaps mmtune
+42 * * * * cd /home/pi/myopenaps && openaps mmtune
+
+# Below line runs mmtune twice an hour
+9 * * * * cd /home/pi/myopenaps && openaps mmtune
+39 * * * * cd /home/pi/myopenaps && openaps mmtune
 
 # Below line runs mmtune twice an hour
 9 * * * * cd /home/pi/myopenaps && openaps mmtune
@@ -18,4 +30,7 @@ PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 
 # Below line sends git repository to github (one minute after crontab backup runs in the previous line)
 1 * * * * cd /home/pi/myopenaps && ./git.run
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae76410b8be66c75d63a67a97e31602e6fb2d547
