@@ -1,3 +1,7 @@
+# Specify the files to be backed up.
+# Below command will backup everything inside the project folder
+git add .
+
 # Specify the files to be backed up, this line excludes all .json files.
 git update-index --assume-unchanged *.json
 
