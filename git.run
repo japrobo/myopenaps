@@ -1,15 +1,13 @@
-<<<<<<< HEAD
 # Specify the files to be backed up.
 # Below command will backup everything inside the project folder
 git add .
-=======
+
 # Specify the files to be backed up, this line excludes all .json files.
 git update-index --assume-unchanged *.json
 
 # Below command will backup everything inside the project folder
 git add .
 
->>>>>>> 9449b0cd6cd3f1def65e92fe2ac9d36c76fac5ee
 # You can also use specific files using the command git add file1 file2 ..
 
 # Committing to the local repository with a message containing the time details
