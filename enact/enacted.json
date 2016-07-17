@@ -1,0 +1,24 @@
+{
+  "bg": 194, 
+  "temp": "absolute", 
+  "snoozeBG": 183, 
+  "timestamp": "2016-07-17T07:26:55.412745", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
+  "reason": "Eventual BG 99<140, bolus snooze: eventual BG range 99-183, temp 1.375 ~ req 1.4U/hr", 
+  "eventualBG": 99, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "Eventual BG 99<140, bolus snooze: eventual BG range 99-183, temp 1.375 ~ req 1.4U/hr", 
+    "bg": 194, 
+    "eventualBG": 99, 
+    "temp": "absolute", 
+    "snoozeBG": 183, 
+    "mealAssist": "Off: Carbs: 0 Boluses: 1.6 ISF: 36, Target: 145 Deviation: -24 BGI: -0.05", 
+    "tick": -7
+  }, 
+  "mealAssist": "Off: Carbs: 0 Boluses: 1.6 ISF: 36, Target: 145 Deviation: -24 BGI: -0.05", 
+  "tick": -7
+}
