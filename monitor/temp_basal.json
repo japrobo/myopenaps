@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "duration": 0, 
   "rate": 2.875, 
+=======
+  "duration": 22, 
+  "rate": 1.375, 
+>>>>>>> 9449b0cd6cd3f1def65e92fe2ac9d36c76fac5ee
   "temp": "absolute"
 }

@@ -1,5 +1,9 @@
 {
   "status": "normal", 
+<<<<<<< HEAD
   "bolusing": true, 
+=======
+  "bolusing": false, 
+>>>>>>> 9449b0cd6cd3f1def65e92fe2ac9d36c76fac5ee
   "suspended": false
 }

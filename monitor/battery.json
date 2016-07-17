@@ -1,4 +1,8 @@
 {
   "status": "normal", 
+<<<<<<< HEAD
   "voltage": 1.57
+=======
+  "voltage": 1.32
+>>>>>>> 9449b0cd6cd3f1def65e92fe2ac9d36c76fac5ee
 }
