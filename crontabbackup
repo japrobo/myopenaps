@@ -5,7 +5,7 @@ PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 */10 * * * * killall -g --older-than 10m openaps 
 
 # Below line resets git repository every 3 minute in order to automatically resolve git corruption
-*/3 * * * * cd /home/pi/myopenaps && oref0-reset-git &2> /dev/null
+*/3 * * * * cd /home/pi/myopenaps && oref0-reset-git 
 
 # Below line runs loop every 5 minutes if a loop is not already running
 */5 * * * * cd /home/pi/myopenaps && openaps loop &>> /tmp/output
