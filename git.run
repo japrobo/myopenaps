@@ -15,4 +15,4 @@ curtime=`date`
 git commit -m "Automatic Backup @ $curtime"
 
 # Push the local snapshot to a remote destination
-git push origin rpi2
+git push origin master
